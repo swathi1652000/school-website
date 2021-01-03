@@ -1,0 +1,45 @@
+1.HTML
+11 12 from.html
+aboutus.html
+ac.html
+ac2.html
+activities.html
+admission.html
+Admissionform.html
+bhavans.html
+busses.html
+CCA.HTML
+cca2.html
+Classrooms.html
+co curricular activities.html
+contact us.html
+dicom.html
+educomp.html
+f1.html
+facilities.html
+files.txt
+form1.html
+form5.html
+forms.html
+hostel.html
+imagemap.html
+infrastructure.html
+isojourney.html
+labs.html
+library.html
+Maharishi Vidya Mandir.html
+mvm.html
+mvm2.html
+mvm3.html
+ncc.html
+org chart.html
+osla.html
+photo gallery.html
+playgrounds.html
+RESULTS.HTML
+rules and regulations.html
+school song.html
+schoolprofile.html
+special feutures.html
+sports.html
+XSEED.HTML

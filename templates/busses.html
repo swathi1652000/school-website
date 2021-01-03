@@ -1,0 +1,25 @@
+<htmL>
+<head>
+<title>Buses</title>
+{% load static %}
+  <style>
+body{
+	background-image: url('{% static "images/_blue_background_195120.jpg" %}'); 
+}
+</style>
+</head>
+<body>
+<font face="monotype corsiva" color="green" size="8" align="center"><h1><marquee scrollamount="8" behavior="SCRoll">Buses </marquee></h1></font>
+<hr size=9 color="maroon">
+<pre>
+<img src="{% static 'images/bus2.jpg'%}"height="200" width="400"> <img src="{% static 'images/bus 3.jpg'%}"height="200" width="400"><font face="monotype corsiva" color="green" size="8">
+There are 35 buses with 38 drivers and 42 conductors.
+There is a scorpio and two sumo.
+Mr.Madeshan is the incharge of this transport.
+<img src="{% static 'images/busses.jpg'%}"height="300" width="1000">
+<p align="right"><a href="{% url 'infrastructure' %}"><font face="monotype corsiva" color="green" size="8">HOME
+</pre>
+</body>
+</html>
+
+

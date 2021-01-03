@@ -1,0 +1,21 @@
+<htmL>
+<head>
+<title>MVM </title>
+{% load static %}
+  <style>
+body{
+	background-image: url('{% static "images/_blue_background_195120.jpg" %}'); 
+}
+</style>
+</head>
+<body>
+<p align="center"><font face="verdana"color="brown" size="8">INFRASTRUCTURE</font></p>
+<hr>
+<marquee direction="left" behavior="slide" loop="120" scrollamount=14><font face="Brush Script MT"color="black" size="20">Click any one of these to see our school's infrastructure</font></marquee><br><br><br><br><br><br>
+<table border=6 align=center><tr><td><a href="{% url 'busses' %}"> <img src="{% static 'images/bus2.jpg' %}" height="400" width="600"></td></tr>    <tr><td><a href="{% url 'Educomp' %}"><img src="{% static 'images/educomp3.jpg' %}" height="400" width="600"><br></td></tr>
+<tr><td><a href="{% url 'labs' %}"><img src="{% static 'images/DSC02971.jpg' %}" height="400" width="600"></td></tr>     
+<tr><td><a href="{% url 'Classrooms' %}"><img src="{% static 'images/IMG_6185.jpg' %}" height="400" width="600"></td></tr></table>
+</body>
+</html>
+
+

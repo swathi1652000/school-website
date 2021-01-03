@@ -1,0 +1,27 @@
+<htmL>
+<head>
+<title>MVM </title>
+{% load static %}
+  <style>
+body{
+	background-image: url('{% static "images/qqq.jpg" %}');
+	background-repeat: no-repeat; 
+}
+</style>
+</head>
+<body>
+	<table align=center cellspacing=4 cellpadding=4 border=3><b> 
+	<hr color="blue">
+<font face="monotype corsiva" color="silver" size="5" align="center"><h1><marquee scrollamount="12" behavior="SCROLL">  ALL AVAILABLE FORMS </marquee></h1></font>
+<hr color="blue">
+<th><a href="{% url 'Admissionform' %}" target="right"><font face="Californian FB"color="black" size=4><b><i>ADMISSION FORM</b></i></th>
+<th><a href="{% url 'form1' %}" target="right"><font face="Californian FB" color="black" size=4><b><i>ENQUIRY FORM</b></i></a></th>
+<th><a href="{% url 'Highform' %}" target="right"><font face="Californian FB"color="black" size=4><b><i>GROUP SELECTION FORM</b></i></th>  
+</table>
+	
+
+</body>
+</html>
+
+
+

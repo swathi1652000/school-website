@@ -1,0 +1,27 @@
+<htmL>
+<head>
+<title>Educomp Smartclass</title>
+
+{% load static %}
+  <style>
+body{
+	background-image: url('{% static "images/_blue_background_195120.jpg" %}');
+	background-repeat: no-repeat; 
+}
+</style>
+</head>
+<body>
+<font face="monotype corsiva" color="black" size="5" align="center"><h1><marquee scrollamount="8" behavior="SCROLL">  Educomp<br> <font face="monotype corsiva" color="green" size="10" align="center">Smart<font face="monotype corsiva" color="blue" size="10" align="center">  class </marquee></h1></font>
+<hr size=9>
+<pre>
+<img src="{% static 'images/class.jpg' %}"height="400" width="600"> <font face="monotype corsiva" color="green" size="8">
+There are 55 educomps in Ved bhavan.
+There are 67 educomps in Hasthamalaka bhavan.
+There are 26 educomps in Trotakacharya bhavan.
+There are 4 educomps in Shakthi bhavan.
+
+<p align="right"><a href="{% url 'infrastructure' %}"><font face="monotype corsiva" color="green" size="8">HOME
+</body>
+</html>
+
+

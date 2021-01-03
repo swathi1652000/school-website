@@ -1,0 +1,61 @@
+
+<htmL>
+<head>
+<title>photo gallery</title>
+{% load static %}
+  <style>
+body{
+	background-image: url('{% static "images/_blue_background_195120.jpg" %}');
+	background-repeat: no-repeat; 
+}
+</style>
+</head>
+<body background="_blue_background_195120.jpg">
+<font face="monotype corsiva" color="blue" size="5" align="center"><h1><marquee scrollamount="12" behavior="SCROLL">  Photo Gallery </marquee></h1></font>
+<hr>
+<table border=2 bordercolor="red" cellspacing=10 cellpadding=10>
+<tr height=100 width=100>
+<td><img src="{% static 'images/fgdg.jpg' %}" height="500" width="400"></td>
+<td><img src="{% static 'images/ac.jpg' %}" height="500" width="400"></td>
+</tr>
+<tr bgcolor="gold"  align="center">
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Group pics</td>
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Activities</td>
+</tr>
+<tr>
+<td><img src="{% static 'images/asda.jpg' %}"height="500" width="400"></td>
+<td><img src="{% static 'images/hqdefault.jpg' %}" height="500" width="400"></td>
+</tr>
+<tr bgcolor="gold" align="center">
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Drawings</td>
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Dance Program</td>
+</tr>
+<tr>
+<td><img src="{% static 'images/Copy of DSC02942.jpg' %}"height="300" width="400"></td>
+<td><img src="{% static 'images/amit.jpg' %}"height="300" width="400"></td>
+</tr>
+<tr bgcolor="gold" align="center">
+<td><font face="monotype corsiva" color="blue" size="5" align="center">library</td>
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Transcendental Meditation</td>
+</tr>
+<tr>
+<td><img src="{% static 'images/fhgtghjkjl.jpg' %}"height="300" width="400"></td>
+<td><img src="{% static 'images/g2-980x400.jpg' %}"height="300" width="400"></td>
+</tr>
+<tr bgcolor="gold" align="center">
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Splash pool</td>
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Guru Dev</td>
+</tr>
+<tr>
+<td><img src="{% static 'images/club2.jpg' %}"height="300" width="400"></td>
+<td><img src="{% static 'images/DSC04299.jpg' %}"height="300" width="400"></td>
+</tr>
+<tr bgcolor="gold" align="center">
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Civic Awarness</td>
+<td><font face="monotype corsiva" color="blue" size="5" align="center">Ganesh Chaturthi Celebration</td>
+<tr bgcolor="gold" align="center">
+</table>
+</body>
+</html>
+
+
